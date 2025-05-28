@@ -33,7 +33,7 @@ const CompanionCard = ({
         </button>
       </div>
       <h2 className="text-2xl font-bold">{name}</h2>
-      <p className="text-sm">{topic}</p>
+      <p className="text-base">Topic: {topic}</p>
       <div className="flex items-center gap-3">
         <Image alt="duration" width={13.5} height={15} src="/icons/clock.svg" />
         <p className="text-sm">{duration} minutes</p>
